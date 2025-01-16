@@ -23,6 +23,13 @@
 
   /* 16 -> 18 */
   --gap: clamp(1rem, 0.9565rem + 0.2174vi, 1.125rem);
+
+  /* Colors */
+  --clr-red: hsl(0, 97%, 63%);
+  --clr-dark-blue: hsl(223, 30%, 9%);
+  --clr-greyish-blue: hsl(223, 23%, 46%);
+  --clr-semi-dark-blue: hsl(223, 36%, 14%);
+  --clr-white: hsl(0, 0%, 100%);
 }
 
 /* 1. Use a more-intuitive box-sizing model */
