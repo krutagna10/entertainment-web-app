@@ -39,13 +39,15 @@
   box-sizing: border-box;
 }
 
-/* 2. Remove default margin */
+/* 2. Remove default margin & padding */
 * {
   margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: var(--font-outfit);
+  background-color: var(--clr-dark-blue);
   /* 3. Add accessible line-height */
   line-height: 1.5;
   /* 4. Improve text rendering */
